@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>My Resume Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="img" href="assets/">
+
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="name">Cade Cunningham</h1>
+        <img src="assets/cade.jpg" alt="cade"/>
+
+        <ul class="menu">
+            <li class="active"><a href="index.html">Home</a> </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+    </header>
+
+
+    <main class="blue-background">
+        
+        <h2>Experience</h2>
+        <div class="experience">
+            <p>2019-2020 - Montverde Academy</p>
+            <p>Basketball Player</p>
+        </div>
+        <div class="experience">
+            <p>2020-2021 Oklahoma State University</p>
+            <p>Basketball Player</p>
+        </div>
+        <div class="experience">
+            <p>2021-present Detroit Pistons</p>
+            <p>Basketball Player</p>
+        </div>
+    </main>
+
+    <aside class="blue-background">
+        <h2>Contact Me</h2>
+        
+        <form id="contactForm">
+            <div>
+            <label for="fullName">Full Name</label>
+            </div>
+            <div>
+            <input type="text" name="contactMe" id="fullName">
+            </div>
+            <div>
+            <label for="email">Email</label>
+             </div>
+             <div>
+            <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <select name="" id="subject">
+                    <option value="">Job Offer</option>
+                    <option value="">Personal Message</option>
+                    <option value="">Questions/Complaints</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message</label>
+            </div>
+            <div>
+                <textarea name="" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send Mail">
+            </div>
+            
+        
+        </form>
+        <div id="formInfo">
+        </div>
+    </aside>
+
+    <footer class="footer">
+        &copy; 2022 Copyright - Nathan Drabicki
+    </footer>
+    <script src="index.js">
+
+    </script>
+</body>
+</html>

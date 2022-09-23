@@ -1,0 +1,73 @@
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.experience {
+    border: inset 1px;
+    margin-bottom: 4px;
+    padding: 4px;
+    
+    color: #222; 
+  }
+
+.menu{
+    float: right;
+}
+.menu li{
+    display:inline;
+    background-color: lightblue;
+    padding: 8px;
+}
+
+.active li a{
+    color: white !important;
+    text-decoration: none;
+}
+
+img {
+    border: 2px solid black;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.name{
+    font-style: italic;
+}
+.blue-background{
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px;
+    width: 50%;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+
+#formInfo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
